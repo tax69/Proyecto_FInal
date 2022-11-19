@@ -1,0 +1,28 @@
+.card {
+    
+    width:500px;
+    height:70px;
+    height: auto;
+    background-color: aquamarine;
+
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273)!important;
+
+    
+}
+.overflow{
+    overflow: hidden;
+}
+
+.card-img-top{
+ 
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+.todo{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -200px;
+}

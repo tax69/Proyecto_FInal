@@ -13,6 +13,12 @@
   }
 }
 
+.page-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -21,11 +27,25 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(225, 255, 255);
+}
+
+.main-footer {
+  background-image: url('../src/assets/fondo.jpg');
+  background-size:cover ;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2px + 2vmin);
+  color: rgb(225, 255, 255);
+  
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ba44f6;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +55,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+section {
+  color: #00ff95;
+  text-shadow: 3px 3px rgba(50,50,70,0.5);
+  background-image: url('../src/assets/fondo.jpg');
+  background-size:cover ;
+  background-attachment: fixed;
+  height: 100vh;  
+
+}
+.navBg {
+  background-color: #282c34;
+  min-height: 10vh;
+  border: 5px solid rgb(0, 0, 0);
+
+
+
+}
+
+.me-auto {
+  flex: 11;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(11px + 2vmin);
+
+  border: 1px solid rgba(0,0,0,0.2);
+  font-weight: bold;
 }

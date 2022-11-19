@@ -1,0 +1,52 @@
+
+.imagenes{
+  float: left;  
+  font-size: 200px;
+  border: 10px solid darkblue;
+
+  
+  }
+
+  .ima1{
+  float: left;  
+  font-size: 200px;
+    border: 10px solid darkblue;
+
+
+  }
+  .ima2{
+   float: left;  
+   font-size: 200px;    
+    border: 10px solid darkblue;
+
+  
+  }
+  .ima3{
+    float: left;  
+    font-size: 200px;
+    border: 10px solid darkblue;
+
+    
+    }
+    .ima4{
+      float: left;  
+      font-size: 200px;        
+      border: 10px solid darkblue;
+
+      
+      }
+
+    
+    .ima5{
+      float: left;  
+      font-size: 200px;        
+      border: 10px solid darkblue;
+
+      
+      }
+      .estilo {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        margin: -200px 10 0 -200px;
+      }
